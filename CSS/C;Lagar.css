@@ -1,0 +1,41 @@
+.ref a {
+    color: black;
+    text-decoration: underline;
+}
+
+.ref a:hover {
+    background-color: rgb(183, 206, 255);
+    padding: 0.5% 0.5% 0.5% 0;
+
+}
+
+@media screen and (min-width: 400px) {
+	ul .two {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 794px) {
+	ul .two {
+        font-size: 110%;
+    }
+}
+@media screen and (min-width: 1020px) {
+    ul .two {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+	ul .two {
+        font-size: 110%;
+    }
+ }
+
+h2 {
+    text-decoration: underline;
+}
+
+li {
+padding: 1%;
+}

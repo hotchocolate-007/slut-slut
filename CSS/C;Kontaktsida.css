@@ -1,0 +1,180 @@
+.bac-color {
+    background-color: rgba(236, 236, 236, 0.247);
+    padding-left: 2%;
+    margin: 1%;
+}
+
+.small {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.ett {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.ett li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.ett li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("email.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
+
+.tva {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.tva li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.tva li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("zoom.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
+.tre {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.tre li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.tre li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("house.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
+.fyra {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.fyra li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.fyra li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("phone.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+

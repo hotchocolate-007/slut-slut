@@ -1,0 +1,157 @@
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+  }
+  
+  .navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;	
+	text-decoration: none;
+  }
+  
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+/*__________*/
+
+  .photo {
+	width: 25%;
+	height: 25%;
+	display: block;
+	margin: 0 auto;
+  }
+
+ footer {
+	text-align: center;
+  }
+
+/*_____Invis SEO_____*/
+
+.invis {
+	color: transparent;
+	font-size: 1%;
+}
+
+/*_____Media Query's_____*/
+
+@media screen and (min-width: 400px) {
+	body {
+	background: #ffb4b4;
+	margin: 1%;
+	padding: 1%;
+	font-size: 100%;
+	max-width: 450px;
+	}
+
+	.navbar a {
+		font-size: 70%;
+	}
+	.dropdown .dropbtn {
+		font-size: 70%;
+	}
+	.photo {
+		width: auto;
+		height: auto;
+	}
+	p {
+		font-size: 100%;
+		font-weight: bold;
+	}
+	
+}
+
+@media screen and (min-width: 794px) {
+	body {
+		background:#dfffb6;
+		margin: 1%;
+		padding: 1%;
+		font-size: 100%;
+	}
+}
+@media screen and (min-width: 1020px) {
+   body{
+	   background: silver;
+	   margin: 1%;
+	   padding: 1%;
+	   font-size: 100%;
+	   max-width: 1366px;
+	   
+   }
+	.navbar a {
+		font-size: 120%;
+	}
+	.dropdown .dropbtn {
+		font-size: 120%;
+}
+}
+
+@media screen and (min-width: 2000px) {
+	body{
+		background: silver;
+		margin: 1%;
+		padding: 1%;
+		font-size: 200%;
+		max-width: 3000px;
+	}
+	.navbar a {
+		font-size: 120%;
+	}
+	.dropdown .dropbtn {
+		font-size: 120%;
+	}
+	
+ }
+
+
+
+  
